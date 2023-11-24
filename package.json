@@ -1,0 +1,29 @@
+{
+  "name": "diplom",
+  "version": "3.0.0",
+  "description": "Diploma",
+  "main": "scipt.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Strizhak Roman",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^4.1.1",
+    "csv-parser": "^3.0.0",
+    "regression": "^2.0.1",
+    "timeseries-analysis": "^1.0.12",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^10.0.0",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
